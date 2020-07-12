@@ -1,0 +1,139 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('images/bg.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #07031a;
+}
+p{
+  font-family:sans-serif;
+}
+h1 {
+  font-family: 'Cookie', cursive;
+  font-size: 150px;
+  margin-bottom: 20px;
+}
+
+#demo {
+  color: #07031a;
+  font-size: 50px;
+}
+
+.sm {
+  height: 40px;
+  width: 40px;
+}
+
+.sahithi:hover {
+  width: 200px;
+  height: 150px;
+}
+
+.sm:hover {
+  height: 60px;
+  width: 60px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.topright {
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+
+span {
+  font-size: 50px;
+}
+
+img {
+  height: 100px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (max-width:414px) {
+  .middle {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  img {
+    width: 200px;
+    width: 180px;
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  #demo {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:736px) {
+  .middle {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  img {
+    width: 200px;
+    width: 180px;
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  #demo {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  sm {
+    padding-bottom: 0;
+  }
+}
