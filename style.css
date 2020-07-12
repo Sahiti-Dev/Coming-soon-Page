@@ -1,0 +1,165 @@
+                body,
+                html {
+                    height: 100vh;
+                    margin: 0;
+                }
+                
+                .sahithi {
+                    width: 200px;
+                    height: 100px;
+                }
+                
+                .bgimg {
+                    background-image: url('images/bg.jpg');
+                    height: 100vh;
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    color: #07031a;
+                }
+                
+                p {
+                    font-family: sans-serif;
+                }
+                
+                .topBar {
+                    display: flex;
+                    flex-grow: 1;
+                    justify-content: space-between;
+                    height: 100px;
+                }
+                
+                h1 {
+                    font-family: 'Cookie', cursive;
+                    font-size: 150px;
+                    margin-bottom: 20px;
+                }
+                
+                #demo {
+                    color: #07031a;
+                    font-size: 50px;
+                }
+                
+                .sm {
+                    height: 40px;
+                    width: 40px;
+                }
+                
+                .sm:hover {
+                    height: 60px;
+                    width: 60px;
+                }
+                
+                .topleft {
+                    position: absolute;
+                    top: 0;
+                    left: 16px;
+                }
+                
+                .bottomleft {
+                    position: absolute;
+                    bottom: 0;
+                    text-align: center;
+                    width: 100%;
+                }
+                
+                hr {
+                    margin: auto;
+                    width: 40%;
+                }
+                
+                .topright {
+                    position: absolute;
+                    top: 0;
+                    right: 16px;
+                }
+                
+                span {
+                    font-size: 50px;
+                }
+                
+                .middle {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+                
+                @media (max-width:414px) {
+                    .middle {
+                        width: 100%;
+                    }
+                    .sahithi {
+                        width: 160px;
+                        height: 90px;
+                    }
+                    span {
+                        font-size: 30px;
+                    }
+                    h1 {
+                        font-size: 80px;
+                    }
+                    #demo {
+                        font-size: 30px;
+                    }
+                    .vit-logo {
+                        padding-top: 20px;
+                    }
+                }
+                
+                @media (max-width:768px) {
+                    .middle {
+                        width: 100%;
+                    }
+                    .sahithi {
+                        width: 330px;
+                        height: auto;
+                    }
+                    #demo {
+                        font-size: 30px;
+                        padding-bottom: 20px;
+                        margin-bottom: 30px;
+                    }
+                    .sm {
+                        padding-bottom: 0;
+                    }
+                    .vit-logo {
+                        padding-top: 50px;
+                    }
+                    .bottomleft {
+                        position: absolute;
+                        bottom: 0;
+                        text-align: center;
+                        width: 100%;
+                        font-size: 15px;
+                    }
+                    .sm {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+                
+                @media (max-width:360px) {
+                    .h1 {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                    .sahithi {
+                        width: 160px;
+                        height: auto;
+                    }
+                    .vit-logo {
+                        padding-top: 20px;
+                    }
+                }
+                
+                @media (min-width:320px) and (max-width:420px) {
+                    .sahithi {
+                        width: 140px;
+                        height: auto;
+                    }
+                    .vit-logo {
+                        padding-top: 20px;
+                    }
+                }
